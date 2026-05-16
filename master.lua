@@ -1,7 +1,7 @@
 os.loadAPI("/protokoll.lua")
 MSG = protokoll.MSG
 
-local MODEM = "right"
+local MODEM = "top"
 rednet.open(MODEM)
 
 local gepek = {}
